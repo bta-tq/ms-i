@@ -401,3 +401,11 @@ bottom: 27.44%;
 .promo{
 
 }
+
+.foot{
+    position: absolute;
+width: 1386px;
+height: 121px;
+left: 0px;
+top: 2645px;
+}
