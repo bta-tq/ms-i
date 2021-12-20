@@ -360,3 +360,44 @@ top: 1940px;
 background: #E3FFD9;
 border-radius: 15px;
 }
+
+.kategori .j_p .latar{
+    position: absolute;
+width: 948px;
+height: 350px;
+left: 159px;
+top: 1965px;
+
+background: #B5FF9B;
+border-radius: 15px;
+}
+
+.kategori .j_p .nama{
+    position: absolute;
+width: 155px;
+height: 29px;
+left: 177px;
+top: 1982px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #129456;
+}
+
+.kategori .j_p .d_u{
+    position: absolute;
+left: 83.2%;
+right: 15.08%;
+top: 71.76%;
+bottom: 27.44%;
+}
+
+.promo{
+
+}
