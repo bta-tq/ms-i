@@ -88,7 +88,7 @@ header {
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.dashboard {
+.dashboard a {
     position: absolute;
     width: 117px;
     height: 28px;
@@ -96,19 +96,14 @@ header {
     top: 18px;
 
     font-family: Roboto;
-    font-style: normal;
+    font-style: underline;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    text-decoration: none;
 
-    color: #072D16;
-    transition: 00.3ms;
-}
-
-.dashboard :hover{
     color: #288D41;
 }
+
 
 .dashboard, .daerah, .diskusi, .transaksi, .laporan, a {
     font-family: Roboto;
@@ -122,7 +117,7 @@ header {
     text-decoration: none;
 }
 
-.posting a {
+.posting {
     position: absolute;
     width: 117px;
     height: 28px;
@@ -130,14 +125,19 @@ header {
     top: 18px;
 
     font-family: Roboto;
-    font-style: underline;
+    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+    text-decoration: none;
 
-    color: #288D41;
+    color: #072D16;
+    transition: 00.3ms;
 }
 
+.posting :hover{
+    color: #288D41;
+}
 
 
 .daerah {
@@ -228,3 +228,135 @@ header {
     color: #288D41;
 }
 
+.isi .banner{
+    position: absolute;
+width: 1296px;
+height: 362px;
+left: -15px;
+top: 116px;
+
+background: url(.png);
+}
+
+.isi .berita .underline{
+    position: absolute;
+    width: 1280px;
+    height: 64px;
+    left: -2px;
+    top: 527px;
+}
+
+.isi .berita .isi1{
+    position: absolute;
+width: 300px;
+height: 269px;
+left: 134px;
+top: 627px;
+}
+
+.isi .berita .isi2{
+    position: absolute;
+width: 300px;
+height: 269px;
+left: 483px;
+top: 627px;
+}
+
+.isi .berita .isi3{
+    position: absolute;
+width: 300px;
+height: 269px;
+left: 832px;
+top: 627px;
+}
+
+.isi .berita .klik{
+    position: absolute;
+width: 998px;
+height: 47px;
+left: 134px;
+top: 921px;
+}
+
+.isi .produk .spesial{
+    position: absolute;
+    width: 1280px;
+    height: 64px;
+    left: -2px;
+    top: 1017px;
+}
+
+.isi .produk .p1{
+    position: absolute;
+width: 300px;
+height: 282px;
+left: 134px;
+top: 1117px;
+}
+
+.isi .produk .p2{
+    position: absolute;
+width: 300px;
+height: 282px;
+left: 488px;
+top: 1117px;
+}
+
+.isi .produk .p3{
+    position: absolute;
+width: 300px;
+height: 282px;
+left: 832px;
+top: 1117px;
+}
+
+.isi .produk .p4{
+    position: absolute;
+width: 300px;
+height: 282px;
+left: 134px;
+top: 1435px;
+}
+
+.isi .produk .p5{
+    position: absolute;
+width: 300px;
+height: 282px;
+left: 488px;
+top: 1435px;
+}
+
+.isi .produk .p6{
+    position: absolute;
+width: 300px;
+height: 282px;
+left: 832px;
+top: 1435px;
+}
+
+.isi .produk .klik{
+    position: absolute;
+width: 998px;
+height: 47px;
+left: 134px;
+top: 1744px;
+}
+
+.kategori .open{
+    position: absolute;
+    width: 1280px;
+    height: 64px;
+    left: -2px;
+    top: 1840px;
+}
+
+.kategori .latar{
+    position: absolute;
+width: 998px;
+height: 615px;
+left: 134px;
+top: 1940px;
+
+background: #E3FFD9;
+border-radius: 15px;
+}
