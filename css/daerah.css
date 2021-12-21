@@ -297,6 +297,147 @@ left: 303px;
 top: 242px;
 }
 
+.isi .b_a{
+    position: absolute;
+width: 908px;
+height: 174px;
+left: 326px;
+top: 363px;
+}
+
+.isi .b_b{
+    position: absolute;
+width: 908px;
+height: 174px;
+left: 326px;
+top: 543px;
+}
+
+.isi .b_c{
+    position: absolute;
+width: 908px;
+height: 174px;
+left: 326px;
+top: 723px;
+}
+
+.isi .bawah{
+    position: absolute;
+width: 908px;
+height: 43px;
+left: 326px;
+top: 945px;
+}
+
+.isi .left .buka {
+    position: absolute;
+    width: 178px;
+    height: 75px;
+    left: 59px;
+    top: 788px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #129456;
+    background: #FFFFFF;
+    border-radius: 9px;
+    transition-duration: 0.3s;
+}
+
+.isi .left .buka:hover {
+    background-color: #129456;
+    color: #FFFFFF;
+}
+
+.isi .left .jarak {
+    position: absolute;
+    width: 178px;
+    height: 75px;
+    left: 59px;
+    top: 904px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #129456;
+    background: #FFFFFF;
+    border-radius: 9px;
+    transition-duration: 0.3s;
+}
+
+.isi .left .jarak:hover {
+    background-color: #129456;
+    color: #FFFFFF;
+}
+
+.isi .left .huruf {
+    position: absolute;
+    width: 178px;
+    height: 75px;
+    left: 59px;
+    top: 363px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #FFFFFF;
+    background: #129456;
+    border-radius: 9px;
+}
+
+.isi .left .lokasi {
+    position: absolute;
+    width: 178px;
+    height: 75px;
+    left: 59px;
+    top: 479px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #129456;
+    background: #FFFFFF;
+    border-radius: 9px;
+    transition-duration: 0.3s;
+}
+
+.isi .left .lokasi:hover {
+    background-color: #129456;
+    color: #FFFFFF;
+}
+
+.isi .left .rating {
+    position: absolute;
+    width: 178px;
+    height: 75px;
+    left: 59px;
+    top: 595px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #129456;
+    background: #FFFFFF;
+    border-radius: 9px;
+    transition-duration: 0.3s;
+}
+
+.isi .left .rating:hover {
+    background-color: #129456;
+    color: #FFFFFF;
+}
+
 footer {
     position: absolute;
     width: 1349px;
