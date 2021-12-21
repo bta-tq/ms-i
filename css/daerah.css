@@ -1,0 +1,413 @@
+html {
+    position: relative;
+    width: 1280px;
+    height: 1175px;
+
+    background: #FFFFFF;
+}
+
+header {
+    position: absolute;
+    width: 1280px;
+    height: 117px;
+    left: 0px;
+    top: -1px;
+}
+
+.layout {
+    position: absolute;
+    width: 1280px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+}
+
+.atas-logo {
+    position: absolute;
+    width: 1347px;
+    height: 60px;
+    left: 2px;
+    top: -5px;
+
+    background: #FAF9F9;
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 33px;
+    top: -13px;
+}
+
+.cari {
+    position: absolute;
+    width: 589px;
+    height: 42px;
+    left: 359px;
+    top: 3.5px;
+
+    background: #F1E7E7;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.loupe {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 910px;
+    top: 10px;
+}
+
+.profil {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 1120px;
+    top: 5px;
+}
+
+.menu {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 1196px;
+    top: 11px;
+}
+
+.bar-home {
+    position: absolute;
+    width: 1349px;
+    height: 60px;
+    left: 0px;
+    top: 50px;
+
+    background: #EFE9E9;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard {
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 22px;
+    top: 18px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+
+    color: #072D16;
+    transition: 00.3ms;
+}
+
+.dashboard :hover{
+    color: #288D41;
+}
+
+.dashboard, .daerah, .diskusi, .transaksi, .laporan, a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+
+    color: #072D16;
+    text-decoration: none;
+}
+
+.posting {
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 173px;
+    top: 18px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+
+    color: #072D16;
+    transition: 00.3ms;
+}
+
+.posting :hover {
+    color: #288D41;
+}
+
+.daerah a {
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 290px;
+    top: 18px;
+
+    font-family: Roboto;
+    font-style: underline;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #288D41;
+}
+
+.diskusi {
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 407px;
+    top: 18px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+
+    color: #072D16;
+    transition: 00.3ms;
+}
+
+.diskusi :hover {
+    color: #288D41;
+}
+
+.transaksi {
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 524px;
+    top: 18px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+
+    color: #072D16;
+    transition: 00.3ms;
+}
+
+.transaksi :hover {
+    color: #288D41;
+}
+
+.laporan {
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 671px;
+    top: 18px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+
+    color: #072D16;
+    transition: 00.3ms;
+}
+
+.laporan :hover {
+    color: #288D41;
+}
+
+.isi .nama{
+    position: absolute;
+width: 1280px;
+height: 64px;
+left: -1px;
+top: 185px;
+}
+
+.isi .urutkan{
+    position: absolute;
+width: 253px;
+height: 128px;
+left: 24px;
+top: 242px;
+}
+
+.isi .k_u{
+    position: absolute;
+width: 253px;
+height: 398px;
+left: 24px;
+top: 305px;
+
+background: #FFFFFF;
+border: 5px solid #288D41;
+box-sizing: border-box;
+border-radius: 14px;
+}
+
+.isi .k_f{
+    position: absolute;
+width: 253px;
+height: 272px;
+left: 24px;
+top: 738px;
+
+background: #FFFFFF;
+border: 5px solid #288D41;
+box-sizing: border-box;
+border-radius: 14px;
+}
+
+.isi .filter{
+    position: absolute;
+width: 253px;
+height: 128px;
+left: 24px;
+top: 675px;
+}
+
+.isi .k_d{
+    position: absolute;
+width: 954px;
+height: 705px;
+left: 303px;
+top: 305px;
+
+background: #FFFFFF;
+border: 5px solid #288D41;
+box-sizing: border-box;
+border-radius: 14px;
+}
+
+.isi .daftar{
+    position: absolute;
+width: 954px;
+height: 128px;
+left: 303px;
+top: 242px;
+}
+
+footer {
+    position: absolute;
+    width: 1349px;
+    height: 121px;
+    left: 0px;
+    bottom: 0px;
+
+    background: #21562E;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.p2 {
+    position: absolute;
+    left: 600px;
+    top: 75px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFDFD;
+}
+
+.logo1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    top: 20px;
+}
+
+.kontak {
+    position: absolute;
+    width: 183px;
+    height: 22px;
+    left: 1010px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFDFD;
+}
+
+.alamat {
+    position: absolute;
+    width: 183px;
+    height: 22px;
+    left: 1010px;
+    top: 28px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFDFD;
+}
+
+.telepon {
+    position: absolute;
+    width: 183px;
+    height: 22px;
+    left: 1010px;
+    top: 48px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFDFD;
+}
+
+.wa {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 1102px;
+    top: 75px;
+}
+
+.ig {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 1141px;
+    top: 75px;
+}
+
+.fb {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 1180px;
+    top: 75px;
+}
