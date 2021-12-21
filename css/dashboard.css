@@ -398,8 +398,233 @@ top: 71.76%;
 bottom: 27.44%;
 }
 
-.promo{
+.j_p .j01{
+    position: absolute;
+width: 83px;
+height: 110px;
+left: 204px;
+top: 2047px;
+}
 
+.j_p .j02{
+    position: absolute;
+    width: 107px;
+height: 110px;
+left: 319px;
+top: 2047px;
+}
+
+.j_p .j03{
+    position: absolute;
+    width: 131px;
+height: 121px;
+left: 434px;
+top: 2047px;
+}
+
+.j_p .j04{
+    position: absolute;
+width: 83px;
+height: 110px;
+left: 585px;
+top: 2047px;
+}
+
+.j_p .j05{
+    position: absolute;
+    width: 83px;
+height: 110px;
+left: 712px;
+top: 2047px;
+}
+
+.j_p .j06{
+    position: absolute;
+width: 117px;
+height: 110px;
+left: 821px;
+top: 2047px;
+}
+
+.j_p .j07{
+    position: absolute;
+width: 91px;
+height: 110px;
+left: 959px;
+top: 2047px;
+}
+
+.j_p .j08{
+    position: absolute;
+width: 95px;
+height: 110px;
+left: 198px;
+top: 2183px;
+}
+
+.j_p .j09{
+    position: absolute;
+width: 83px;
+height: 121px;
+left: 331px;
+top: 2183px;
+}
+
+.j_p .j10{
+    position: absolute;
+width: 83px;
+height: 110px;
+left: 458px;
+top: 2183px;
+}
+
+.j_p .j11{
+    position: absolute;
+width: 83px;
+height: 110px;
+left: 585px;
+top: 2183px;
+}
+
+.j_p .j12{
+    position: absolute;
+width: 83px;
+height: 121px;
+left: 712px;
+top: 2183px;
+}
+
+.j_p .j13{
+    position: absolute;
+width: 83px;
+height: 110px;
+left: 838px;
+top: 2183px;
+}
+
+.j_p .j14{
+    position: absolute;
+width: 109px;
+height: 121px;
+left: 950px;
+top: 2183px;
+}
+
+.pm .latar{
+    position: absolute;
+width: 948px;
+height: 62px;
+left: 158px;
+top: 2334px;
+
+background: #B5FF9B;
+border-radius: 15px;
+}
+
+.pm .nama{
+    position: absolute;
+width: 930px;
+height: 29px;
+left: 176px;
+top: 2351px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #129456;
+}
+
+.pm .d_d{
+    position: absolute;
+left: 83.12%;
+right: 15.16%;
+top: 85.9%;
+bottom: 15.3%;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.bumdes .latar{
+    position: absolute;
+width: 948px;
+height: 62px;
+left: 158px;
+top: 2405px;
+
+background: #B5FF9B;
+border-radius: 15px;
+}
+
+.bumdes .nama{
+    position: absolute;
+width: 930px;
+height: 29px;
+left: 176px;
+top: 2422px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #129456;
+}
+
+.bumdes .d_d{
+    position: absolute;
+left: 83.12%;
+right: 15.16%;
+top: 88.47%;
+bottom: 15.74%;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.lain .latar{
+    position: absolute;
+width: 948px;
+height: 62px;
+left: 158px;
+top: 2476px;
+
+background: #B5FF9B;
+border-radius: 15px;
+}
+
+.lain .nama{
+    position: absolute;
+width: 930px;
+height: 29px;
+left: 176px;
+top: 2493px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #129456;
+}
+
+.lain .d_d{
+    position: absolute;
+left: 83.12%;
+right: 15.16%;
+top: 91.03%;
+bottom: 13.17%;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .foot{
