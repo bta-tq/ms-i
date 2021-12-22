@@ -345,7 +345,12 @@ h2 {
     color: #FFFFFF;
     background: #129456;
     border-radius: 9px;
-    transition: 0.5ms;
+    transition-duration: 0.3s;
+}
+
+.button-keuangan:hover  {
+    background-color: #FFFFFF;
+    color: #129456;
 }
 
 .button-makanan {
@@ -363,9 +368,13 @@ h2 {
     color: #FFFFFF;
     background: #129456;
     border-radius: 9px;
-    transition: 0.5ms;
+    transition-duration: 0.3s;
 }
 
+.button-makanan:hover  {
+    background-color: #FFFFFF;
+    color: #129456;
+}
 
 .button-minuman {
     position: absolute;
@@ -382,9 +391,13 @@ h2 {
     color: #FFFFFF;
     background: #129456;
     border-radius: 9px;
-    transition: 0.5ms;
+    transition-duration: 0.3s;
 }
 
+.button-minuman:hover  {
+    background-color: #FFFFFF;
+    color: #129456;
+}
 
 .button-peralatan {
     position: absolute;
@@ -401,7 +414,12 @@ h2 {
     color: #FFFFFF;
     background: #129456;
     border-radius: 9px;
-    transition: 0.5ms;
+    transition-duration: 0.3s;
+}
+
+.button-peralatan:hover  {
+    background-color: #FFFFFF;
+    color: #129456;
 }
 
 .button-jasa {
@@ -419,7 +437,12 @@ h2 {
     color: #FFFFFF;
     background: #129456;
     border-radius: 9px;
-    transition: 0.5ms;
+    transition-duration: 0.3s;
+}
+
+.button-jasa:hover  {
+    background-color: #FFFFFF;
+    color: #129456;
 }
 
 .button-bisnis {
@@ -437,7 +460,12 @@ h2 {
     color: #FFFFFF;
     background: #129456;
     border-radius: 9px;
-    transition: 0.5ms;
+    transition-duration: 0.3s;
+}
+
+.button-bisnis:hover  {
+    background-color: #FFFFFF;
+    color: #129456;
 }
 
 .button-sewa {
@@ -455,7 +483,12 @@ h2 {
     color: #FFFFFF;
     background: #129456;
     border-radius: 9px;
-    transition: 0.5ms;
+    transition-duration: 0.3s;
+}
+
+.button-sewa:hover  {
+    background-color: #FFFFFF;
+    color: #129456;
 }
 
 .button-olahraga {
@@ -473,7 +506,12 @@ h2 {
     color: #FFFFFF;
     background: #129456;
     border-radius: 9px;
-    transition: 0.5ms;
+    transition-duration: 0.3s;
+}
+
+.button-olahraga:hover  {
+    background-color: #FFFFFF;
+    color: #129456;
 }
 
 .button-kesehatan {
@@ -491,7 +529,7 @@ h2 {
     color: #FFFFFF;
     background: #129456;
     border-radius: 9px;
-    transition: 0.5ms;
+    transition-duration: 0.3s;
 }
 
 .button-kesehatan .button-keuangan .button-makanan .button-minuman .button-bisnis 
@@ -758,6 +796,12 @@ p {
 
     background: #288D41;
     border-radius: 15px;
+	transition-duration: 0.3s;
+}
+
+.btn-input:hover  {
+    background-color: #FFFFFF;
+    color: #129456;
 }
 
 footer {
