@@ -40,6 +40,14 @@ header {
     top: -13px;
 }
 
+.cart {
+    position: absolute;
+width: 49px;
+height: 49px;
+left: 1045px;
+top: 4px;
+}
+
 .cari {
     position: absolute;
     width: 589px;

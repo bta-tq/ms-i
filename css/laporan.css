@@ -21,6 +21,14 @@ header {
     top: 0px;
 }
 
+.cart {
+    position: absolute;
+width: 49px;
+height: 49px;
+left: 1045px;
+top: 4px;
+}
+
 .atas-logo {
     position: absolute;
     width: 1347px;

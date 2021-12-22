@@ -18,6 +18,7 @@
                     <img class="logo" src="Asset/logo.png">
                     <a href="#" onclick="profil()"><img class="profil" src="Asset/Vector (1).png" alt="profil"></a>
                     <a href="#" onclick="menu()"><img class="menu" src="Asset/Vector.png" alt="menuu"></a>
+                    <a href="#" onclick="keranjang()"><img class="cart" src="Asset/cart atas.png" alt="cart"></a>
                     </div>
                     <div>
                         <input class="cari" type="search">
@@ -37,7 +38,7 @@
                             <a href="diskusi.html">Diskusi</a>
                         </section>
                         <section class="transaksi">
-                            <a href="transaksi.html">Transaksi</a>
+                            <a href="transaksi.html">Produk</a>
                         </section>
                         <section class="laporan">
                             <a href="laporan.html">Laporan</a>
