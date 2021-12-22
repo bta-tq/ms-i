@@ -50,13 +50,13 @@
             <div class="berita">
                 <img class="underline" src="Asset/berita.png">
                 <section class="isi1">
-                    <a href="#"><img src="Asset/berita1.png"></a>
+                    <a href="https://katadesa.id/index.php/dari-desa-ke-desa-1/72-tiga-tips-pengelolaan-keuangan-bumdes" target="_blank"><img src="Asset/berita1.png"></a>
                 </section>
                 <section class="isi2">
-                    <a href="#"><img src="Asset/berita2.png"></a>
+                    <a href="https://infobumdes.id/proses-dan-tahapan-pendirian-bumdes/" target="_blank"><img src="Asset/berita2.png"></a>
                 </section>
                 <section class="isi3">
-                    <a href="#"><img src="Asset/berita3.png"></a>
+                    <a href="https://www.pusdiklatpemda.com/pelatihan-pengurus-badan-usaha-milik-desa-bumdes-se-kabupaten/" target="_blank"><img src="Asset/berita3.png"></a>
                 </section>
                 <section class="klik">
                     <a href="#"><img src="Asset/klik berita lainnya.png"></a>
