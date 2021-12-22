@@ -1,4 +1,5 @@
 <?php
+$conn = mysqli_connect('localhost','root',"",'ms-i');
 
 $db_host = "localhost";
 $db_user = "root";

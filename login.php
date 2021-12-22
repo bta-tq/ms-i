@@ -1,36 +1,20 @@
 <?php 
+session_start();
+include 'koneksi.php';
 
-require_once("koneksi.php");
+if(isset($_POST['login'])){
+    $user = $_POST['username'];
+    $pass = $_POST['password'];
+    $hasil = mysqli_query($conn, "SELECT * FROM user WHERE username = '$user'");
 
-if(isset($_POST['submit'])){
-
-    $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
-    $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);
-
-    $sql = "SELECT * FROM user WHERE username=:username OR email=:email";
-    $stmt = $db->prepare($sql);
-    
-    // bind parameter ke query
-    $params = array(
-        ":username" => $username,
-        ":email" => $username
-    );
-
-    $stmt->execute($params);
-
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
-
-    // jika user terdaftar
-    if($user){
-        // verifikasi password
-        if(password_verify($password, $user["password"])){
-            // buat Session
-            session_start();
-            $_SESSION["user"] = $user;
-            // login sukses, alihkan ke halaman timeline
-            header("Location: dashboard.html");
+    if(mysqli_num_rows($hasil) === 1 ) {
+        $row = mysqli_fetch_assoc($hasil);
+        if (password_verify($pass, $row["password"])) {
+            header("Location: dashboard.php");
+            exit;   
         }
     }
+    $error = true;
 }
 ?>
 
@@ -44,13 +28,18 @@ if(isset($_POST['submit'])){
     <div class="login-box">
         <img src="Asset/logo.png" class="logo">
         <h1>Micro, Small, and Medium Enterprises System Information</h1>
-        <form>
+        <?php
+        if(isset($error)):
+        ?>
+        <p style="color: red; font-style: italic;">Username atau Password anda salah</p>
+        <?php endif; ?>
+        <form action="" method="POST">
             <p></p>
             <p></p>
             <input type="text" name="username" placeholder="Masukkan Username">
             <p></p>
             <input type="password" name="password" placeholder="Masukkan Password">
-            <input type="submit" name="submit" value="Login">
+            <input type="submit" name="login" value="Login">
             <h2><span>Atau</span></h2>
             
             <a href="#">Lupa Password</a>
