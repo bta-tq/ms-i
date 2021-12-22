@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 22, 2021 at 11:14 AM
+-- Generation Time: Dec 22, 2021 at 11:30 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.13
 
@@ -41,7 +41,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nama`, `username`, `password`, `email`, `notelp`) VALUES
-(1, 'Asry Bari Dzikri Naura', 'abdn123', 'abdn123', 'dzikrihf@gmail.com', 882167281),
+(1, 'Asry Bari Dodi Dzikri Naura', 'abddn123', 'abddn123', 'dzikrihf@gmail.com', 882167281),
 (2, 'Cimong', 'cimong12', '$2y$10$cQ3.7Sfrdr62Qq3jrJHAJeDo2WSYVtSa16u6q/4dmqz8oQL1h7sWa', 'emasdzikri@yahoo.co.id', 2147483647);
 
 --
