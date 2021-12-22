@@ -7,8 +7,24 @@
         <link rel="shortcut icon" type="image/x-icon" href="Asset/logo.png">
         <link rel="stylesheet" href= "https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="css/laporan.css">
+<script>
+        $(function(){
+            $("#all").click(function () {
+            $('.pilih').attr('checked', this.checked);
+            });
+            
+            $(".pilih").click(function(){
+            if($(".pilih").length == $(".pilih:checked").length) {
+            $("#all").attr("checked", "checked");
+            } else {
+            $("#all").removeAttr("checked");
+            }
+            });
+            });
+</script>
     </head>
 
+    <body class="html">
     <header>
         <div class="layout">
             <div>
@@ -44,38 +60,58 @@
             </div>
         </div>
     </header>
-<body>
-    <table>
-        <tr>
-            <th rowspan="2">Nama</th>
-            <th colspan="3">Nilai</th>
-        </tr>
-        <tr>
-            <th>Kimia</th>
-            <th>Fisika</th>
-            <th>Biologi</th>
-        </tr>
-        <tr>
-            <td>Robby</td>
-            <td>76</td>
-            <td>80</td>
-            <td>81</td>
-        </tr>
-        <tr>
-            <td>Rendi</td>
-            <td>84</td>
-            <td>70</td>
-            <td>75</td>
-        </tr>
-        <tr>
-            <td>Alfian</td>
-            <td>96</td>
-            <td>70</td>
-            <td>71</td>
-        </tr>
-    </table>
-</body>
-<footer>
+    
+    <main class="isi">
+        <img class="nama" src="Asset/Laporan/lap.png">
+
+        <div class="tabel">
+            <br>
+            <table>
+                <tr>
+                    <th><input type="checkbox" class="all"/></th>
+                    <th>Keterangan</th>
+                    <th>Jangka Waktu</th>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" class="pilih" value="1"/></td>
+                    <td align="center">Laporan Pendapatan</td>
+                    <td align="center">1 Januari 2021 s/d 31 Januari 2021</td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" class="pilih" value="2"/></td>
+                    <td align="center">Laporan Pendapatan</td>
+                    <td align="center">1 Februari 2021 s/d 28 Februari 2021</td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" class="pilih" value="3"/></td>
+                    <td align="center">Laporan Pendapatan</td>
+                    <td align="center">1 Maret 2021 s/d 31 Maret 2021</td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" class="pilih" value="4"/></td>
+                    <td align="center">Laporan Laba Rugi</td>
+                    <td align="center">1 Januari 2021 s/d 31 Januari 2021</td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" class="pilih" value="5"/></td>
+                    <td align="center">Laporan Laba Rugi</td>
+                    <td align="center">1 Februari 2021 s/d 28 Februari 2021</td>
+                </tr>
+            </table>
+        </div>
+
+        <section class="xlsx">
+            <a href="#"><img src="Asset/Laporan/xlsx.png"></a>
+        </section>
+        <section class="pdf">
+            <a href="#"><img src="Asset/Laporan/pdf.png"></a>
+        </section>
+
+    </main>
+    
+    <footer>
     <img class="foot" src="Asset/kategori/Bawah.png">
-</footer>
+    </footer>
+    </body>
+
 </html>
