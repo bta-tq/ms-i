@@ -11,3 +11,11 @@ Pada pengerjaan proyek ini dibangun oleh tim yang beranggotakan:
 5. [Ahmad Bari' Taqiyyah](https://github.com/bta-tq) selaku Beta Engineer dengan NIM 1805148
 
 Untuk prototype nya, nanti disertakan ya. segini aja dulu. Hehe
+
+
+Buat yang mau coba:
+Username
+cimong12
+
+Password
+cimong12
