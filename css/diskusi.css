@@ -69,28 +69,21 @@ top: 4px;
     top: 10px;
 }
 
-.keranjang {
-    position: absolute;
-    width: 42px;
-    height: 42px;
-    left: 1110px;
-    top: 5px;
-}
 
 .profil {
     position: absolute;
-    width: 42px;
-    height: 42px;
-    left: 1190px;
-    top: 5px;
+width: 42px;
+height: 42px;
+left: 1128px;
+top: 7px;
 }
 
 .menu {
     position: absolute;
-    width: 27px;
-    height: 27px;
-    left: 1270px;
-    top: 11px;
+width: 57px;
+height: 57px;
+left: 1196px;
+top: 0px;
 }
 
 .bar-home {
