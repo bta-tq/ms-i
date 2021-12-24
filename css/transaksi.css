@@ -400,8 +400,6 @@ h4 {
     width: 447px;
     height: 72px;
     left: 0px;
-
-    border: 1px solid #000000;
 }
 
 .total-pesanan h4 {
@@ -460,7 +458,6 @@ h4 {
     line-height: 28px;
 
     color: #129456;
-    border: 1px solid #000000;
 }
 
 .button-cekout {
