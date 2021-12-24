@@ -266,7 +266,6 @@ header {
     left: 29px;
     top: 281px;
 
-    border: 1px solid #000000;
 }
 
 .left-content {
@@ -287,7 +286,6 @@ header {
 
     background: #E3FFD9;
     border-radius: 12px;
-    border: 1px solid #000000;
 }
 
 .image1 {
@@ -305,7 +303,6 @@ header {
     left: 225px;
     top: 40px;
 
-    border: 1px solid #000000;
 }
 
 h4 {
@@ -329,7 +326,6 @@ h4 {
     left: 225px;
     top: 110px;
 
-    border: 1px solid #000
 }
 
 .keterangan-harga h4 {
@@ -353,7 +349,6 @@ h4 {
 
     background: #E3FFD9;
     border-radius: 12px;
-    border: 1px solid #000000;
 }
 
 .image2 {
@@ -372,7 +367,19 @@ h4 {
 
     background: #E3FFD9;
     border-radius: 12px;
-    border: 1px solid #000000;
+}
+
+.minus {
+    position: absolute;
+    width: 57px;
+    height: 42px;
+    left: 543px;
+    top: 640px;
+
+    background: #288D41;
+    border: 1px solid #288D41;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .right-content {
@@ -386,6 +393,74 @@ h4 {
     background: #E3FFD9;
     border-radius: 15px;
 
+}
+
+.total-pesanan {
+    position: absolute;
+    width: 447px;
+    height: 72px;
+    left: 0px;
+
+    border: 1px solid #000000;
+}
+
+.total-pesanan h4 {
+    position: absolute;
+    left: 150px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #129456;
+}
+
+.total-pembayaran {
+    position: absolute;
+    width: 403px;
+    height: 54px;
+    left: 20px;
+    bottom: 30px;
+
+    background: #B5FF9B;
+    border-radius: 8px;
+}
+
+.h4 {
+    position: absolute;
+    left: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #129456;
+}
+
+.rincian {
+    position: absolute;
+    width: 395px;
+    height: 196px;
+    left: 25px;
+    top: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #129456;
+    border: 1px solid #000000;
 }
 
 .button-cekout {
