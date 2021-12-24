@@ -26,7 +26,7 @@
                     </div>
                     <div class="bar-home">
                         <section class="dashboard">
-                            <a href="dashboard.html">Dashboard</a>
+                            <a href="dashboard.php">Dashboard</a>
                         </section>
                         <section class="posting">
                             <a href="postingan.html">Posting</a>
