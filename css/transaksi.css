@@ -1,7 +1,7 @@
 html {
     position: relative;
     width: 1280px;
-    height: 1175px;
+    height: 1075px;
 
     background: #FFFFFF;
 }
@@ -61,11 +61,19 @@ header {
     top: 10px;
 }
 
+.keranjang {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 1110px;
+    top: 5px;
+}
+
 .profil {
     position: absolute;
     width: 42px;
     height: 42px;
-    left: 1120px;
+    left: 1190px;
     top: 5px;
 }
 
@@ -73,7 +81,7 @@ header {
     position: absolute;
     width: 27px;
     height: 27px;
-    left: 1196px;
+    left: 1270px;
     top: 11px;
 }
 
@@ -110,7 +118,7 @@ header {
     color: #288D41;
 }
 
-.dashboard, .daerah, .diskusi, .transaksi, .laporan, a {
+.dashboard, .daerah, .posting, .transaksi, .laporan, .diskusi, a {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -134,17 +142,14 @@ header {
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+
     text-decoration: none;
 
     color: #072D16;
     transition: 00.3ms;
 }
 
-.posting :hover {
-    color: #288D41;
-}
-
-.daerah a {
+.daerah {
     position: absolute;
     width: 117px;
     height: 28px;
@@ -152,15 +157,21 @@ header {
     top: 18px;
 
     font-family: Roboto;
-    font-style: underline;
+    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+    text-decoration: none;
 
+    color: #072D16;
+    transition: 00.3ms;
+}
+
+.daerah :hover {
     color: #288D41;
 }
 
-.diskusi {
+.diskusi a {
     position: absolute;
     width: 117px;
     height: 28px;
@@ -175,10 +186,13 @@ header {
     text-decoration: none;
 
     color: #072D16;
-    transition: 00.3ms;
 }
 
 .diskusi :hover {
+    color: #288D41;
+}
+
+.posting :hover {
     color: #288D41;
 }
 
@@ -226,216 +240,173 @@ header {
     color: #288D41;
 }
 
-.isi .nama{
+.judul {
     position: absolute;
-width: 1280px;
-height: 64px;
-left: -1px;
-top: 185px;
+    left: 550px;
+    top: 115px;
 }
 
-.isi .urutkan{
-    position: absolute;
-width: 253px;
-height: 128px;
-left: 24px;
-top: 242px;
-}
-
-.isi .k_u{
-    position: absolute;
-width: 253px;
-height: 398px;
-left: 24px;
-top: 305px;
-
-background: #FFFFFF;
-border: 5px solid #288D41;
-box-sizing: border-box;
-border-radius: 14px;
-}
-
-.isi .k_f{
-    position: absolute;
-width: 253px;
-height: 272px;
-left: 24px;
-top: 738px;
-
-background: #FFFFFF;
-border: 5px solid #288D41;
-box-sizing: border-box;
-border-radius: 14px;
-}
-
-.isi .filter{
-    position: absolute;
-width: 253px;
-height: 128px;
-left: 24px;
-top: 675px;
-}
-
-.isi .k_d{
-    position: absolute;
-width: 954px;
-height: 705px;
-left: 303px;
-top: 305px;
-
-background: #FFFFFF;
-border: 5px solid #288D41;
-box-sizing: border-box;
-border-radius: 14px;
-}
-
-.isi .daftar{
-    position: absolute;
-width: 954px;
-height: 128px;
-left: 303px;
-top: 242px;
-}
-
-.isi .b_a{
-    position: absolute;
-width: 908px;
-height: 174px;
-left: 326px;
-top: 543px;
-}
-
-.isi .b_b{
-    position: absolute;
-width: 908px;
-height: 174px;
-left: 326px;
-top: 363px;
-}
-
-.isi .b_c{
-    position: absolute;
-width: 908px;
-height: 174px;
-left: 326px;
-top: 723px;
-}
-
-.isi .bawah{
-    position: absolute;
-width: 908px;
-height: 43px;
-left: 326px;
-top: 945px;
-}
-
-.isi .left .buka {
-    position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 788px;
-
+.judul h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
     color: #129456;
-    background: #FFFFFF;
-    border-radius: 9px;
-    transition-duration: 0.3s;
 }
 
-.isi .left .buka:hover {
-    background-color: #129456;
-    color: #FFFFFF;
-}
-
-.isi .left .jarak {
+.container {
     position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 904px;
+    width: 1290px;
+    height: 634px;
+    left: 29px;
+    top: 281px;
+
+    border: 1px solid #000000;
+}
+
+.left-content {
+    position: absolute;
+    width: 727px;
+    height: 634px;
+
+    float: left;
+
+    background: #E3FFD9;
+    border-radius: 12px;
+}
+
+.list-produk {
+    position: absolute;
+    width: 727px;
+    height: 211.4px;
+
+    background: #E3FFD9;
+    border-radius: 12px;
+    border: 1px solid #000000;
+}
+
+.image1 {
+    position: absolute;
+    left: 50px;
+    top: 35px;
+
+    border-radius: 14px;
+}
+
+.keterangan-produk {
+    position: absolute;
+    width: 295px;
+    height: 40px;
+    left: 225px;
+    top: 40px;
+
+    border: 1px solid #000000;
+}
+
+h4 {
+    position: absolute;
+    top: -20px;
 
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 24px;
+    line-height: 28px;
 
     color: #129456;
-    background: #FFFFFF;
-    border-radius: 9px;
-    transition-duration: 0.3s;
+    
 }
 
-.isi .left .jarak:hover {
-    background-color: #129456;
-    color: #FFFFFF;
-}
-
-.isi .left .huruf {
+.keterangan-harga {
     position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 363px;
+    width: 295px;
+    height: 40px;
+    left: 225px;
+    top: 110px;
+
+    border: 1px solid #000
+}
+
+.keterangan-harga h4 {
+    position: absolute;
+    top: -20px;
 
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 24px;
+    line-height: 28px;
 
     color: #129456;
-    background: #FFFFFF;
-    border-radius: 9px;
-    transition-duration: 0.3s;
 }
 
-.isi .left .huruf:hover {
-    background-color: #129456;
-    color: #FFFFFF;
-}
-
-.isi .left .lokasi {
+.list-produk1 {
     position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 479px;
+    width: 727px;
+    height: 211.4px;
+    top: 211.4px;
+
+    background: #E3FFD9;
+    border-radius: 12px;
+    border: 1px solid #000000;
+}
+
+.image2 {
+    position: absolute;
+    left: 50px;
+    top: 35px;
+
+    border-radius: 14px;
+}
+
+.list-produk2 {
+    position: absolute;
+    width: 727px;
+    height: 211.4px;
+    top: 422.8px;
+
+    background: #E3FFD9;
+    border-radius: 12px;
+    border: 1px solid #000000;
+}
+
+.right-content {
+    position: absolute;
+    width: 447px;
+    height: 462px;
+    right: 40px;
+
+    float: right;
+
+    background: #E3FFD9;
+    border-radius: 15px;
+
+}
+
+.button-cekout {
+    position: absolute;
+    width: 447px;
+    height: 67px;
+    right: 40px;
+    top: 500px;
 
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
+    font-weight: 900;
+    font-size: 29px;
+    align-items: center;
+    text-align: center;
 
     color: #FFFFFF;
-    background: #129456;
-    border-radius: 9px;
-}
 
-.isi .left .rating {
-    position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 595px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-
-    color: #129456;
-    background: #FFFFFF;
-    border-radius: 9px;
-    transition-duration: 0.3s;
-}
-
-.isi .left .rating:hover {
-    background-color: #129456;
-    color: #FFFFFF;
+    background: #288D41;
+    border-radius: 15px;
+    border-color: none;
 }
 
 footer {
