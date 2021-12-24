@@ -1,7 +1,7 @@
 html {
     position: relative;
     width: 1280px;
-    height: 1175px;
+    height: 1745px;
 
     background: #FFFFFF;
 }
@@ -32,20 +32,20 @@ header {
     background: #FAF9F9;
 }
 
-.cart {
-    position: absolute;
-width: 49px;
-height: 49px;
-left: 1045px;
-top: 4px;
-}
-
 .logo {
     position: absolute;
     width: 80px;
     height: 80px;
     left: 33px;
     top: -13px;
+}
+
+.cart {
+    position: absolute;
+width: 49px;
+height: 49px;
+left: 1045px;
+top: 4px;
 }
 
 .cari {
@@ -148,11 +148,11 @@ top: 4px;
     transition: 00.3ms;
 }
 
-.posting :hover {
+.posting :hover{
     color: #288D41;
 }
 
-.daerah a {
+.daerah {
     position: absolute;
     width: 117px;
     height: 28px;
@@ -164,8 +164,10 @@ top: 4px;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+    text-decoration: none;
 
-    color: #288D41;
+    color: #072D16;
+    transition: 00.3ms;
 }
 
 .diskusi {
@@ -190,7 +192,7 @@ top: 4px;
     color: #288D41;
 }
 
-.transaksi {
+.transaksi a{
     position: absolute;
     width: 117px;
     height: 28px;
@@ -202,13 +204,11 @@ top: 4px;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    text-decoration: none;
 
-    color: #072D16;
-    transition: 00.3ms;
+    color: #288D41;
 }
 
-.transaksi :hover {
+.daerah :hover{
     color: #288D41;
 }
 
@@ -216,7 +216,7 @@ top: 4px;
     position: absolute;
     width: 117px;
     height: 28px;
-    left: 643px;
+    left: 671px;
     top: 18px;
 
     font-family: Roboto;
@@ -237,213 +237,107 @@ top: 4px;
 .isi .nama{
     position: absolute;
 width: 1280px;
-height: 64px;
-left: -1px;
-top: 185px;
+height: 62px;
+left: 0px;
+top: 165px;
 }
 
-.isi .urutkan{
+.isi .p01{
     position: absolute;
-width: 253px;
-height: 128px;
-left: 24px;
-top: 242px;
+width: 300px;
+height: 282px;
+left: 141px;
+top: 289px;
 }
 
-.isi .k_u{
+.isi .p02{
     position: absolute;
-width: 253px;
-height: 398px;
-left: 24px;
-top: 305px;
-
-background: #FFFFFF;
-border: 5px solid #288D41;
-box-sizing: border-box;
-border-radius: 14px;
+width: 300px;
+height: 282px;
+left: 495px;
+top: 289px;
 }
 
-.isi .k_f{
+
+.isi .p03{
     position: absolute;
-width: 253px;
-height: 272px;
-left: 24px;
-top: 738px;
-
-background: #FFFFFF;
-border: 5px solid #288D41;
-box-sizing: border-box;
-border-radius: 14px;
+width: 300px;
+height: 282px;
+left: 839px;
+top: 289px;
 }
 
-.isi .filter{
+.isi .p04{
     position: absolute;
-width: 253px;
-height: 128px;
-left: 24px;
-top: 675px;
+width: 300px;
+height: 282px;
+left: 141px;
+top: 607px;
 }
 
-.isi .k_d{
+.isi .p05{
     position: absolute;
-width: 954px;
-height: 705px;
-left: 303px;
-top: 305px;
-
-background: #FFFFFF;
-border: 5px solid #288D41;
-box-sizing: border-box;
-border-radius: 14px;
+width: 300px;
+height: 282px;
+left: 495px;
+top: 607px;
 }
 
-.isi .daftar{
+.isi .p06{
     position: absolute;
-width: 954px;
-height: 128px;
-left: 303px;
-top: 242px;
+width: 300px;
+height: 282px;
+left: 839px;
+top: 607px;
 }
 
-.isi .b_a{
+.isi .p07{
     position: absolute;
-width: 908px;
-height: 174px;
-left: 326px;
-top: 543px;
+width: 300px;
+height: 282px;
+left: 141px;
+top: 925px;
 }
 
-.isi .b_b{
+.isi .p08{
     position: absolute;
-width: 908px;
-height: 174px;
-left: 326px;
-top: 363px;
+width: 300px;
+height: 282px;
+left: 495px;
+top: 925px;
 }
 
-.isi .b_c{
+
+.isi .p09{
     position: absolute;
-width: 908px;
-height: 174px;
-left: 326px;
-top: 723px;
+width: 300px;
+height: 282px;
+left: 839px;
+top: 925px;
 }
 
-.isi .bawah{
+.isi .p10{
     position: absolute;
-width: 908px;
-height: 43px;
-left: 326px;
-top: 945px;
+width: 300px;
+height: 282px;
+left: 141px;
+top: 1243px;
 }
 
-.isi .left .buka {
+.isi .p11{
     position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 788px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-
-    color: #129456;
-    background: #FFFFFF;
-    border-radius: 9px;
-    transition-duration: 0.3s;
+width: 300px;
+height: 282px;
+left: 495px;
+top: 1243px;
 }
 
-.isi .left .buka:hover {
-    background-color: #129456;
-    color: #FFFFFF;
-}
-
-.isi .left .jarak {
+.isi .p12{
     position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 904px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-
-    color: #FFFFFF;
-    background: #129456;
-    border-radius: 9px;
-}
-
-.isi .left .lokasi:hover {
-    background-color: #129456;
-    color: #FFFFFF;
-}
-
-.isi .left .huruf {
-    position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 363px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-
-    color: #129456;
-    background: #FFFFFF;
-    border-radius: 9px;
-    transition-duration: 0.3s;
-}
-
-.isi .left .huruf:hover {
-    background-color: #129456;
-    color: #FFFFFF;
-}
-
-.isi .left .lokasi {
-    position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 479px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-
-    color: #129456;
-    background: #FFFFFF;
-    border-radius: 9px;
-    transition-duration: 0.3s;
-}
-
-.isi .left .rating {
-    position: absolute;
-    width: 178px;
-    height: 75px;
-    left: 59px;
-    top: 595px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-
-    color: #129456;
-    background: #FFFFFF;
-    border-radius: 9px;
-    transition-duration: 0.3s;
-}
-
-.isi .left .rating:hover {
-    background-color: #129456;
-    color: #FFFFFF;
+width: 300px;
+height: 282px;
+left: 839px;
+top: 1243px;
 }
 
 footer {

@@ -18,6 +18,7 @@
                     <img class="logo" src="Asset/logo.png">
                     <a href="#" onclick="profil()"><img class="profil" src="Asset/Vector (1).png" alt="profil"></a>
                     <a href="#" onclick="menu()"><img class="menu" src="Asset/Vector.png" alt="menuu"></a>
+                    <a href="transaksi.html" onclick="keranjang()"><img class="cart" src="Asset/cart atas.png" alt="cart"></a>
                     </div>
                     <div>
                         <input class="cari" type="search">
@@ -37,7 +38,11 @@
                             <a href="diskusi.html">Diskusi</a>
                         </section>
                         <section class="transaksi">
+<<<<<<< HEAD:dashboard.html
                             <a href="transaksi.html">Produk</a>
+=======
+                            <a href="produk.html">Produk</a>
+>>>>>>> 66c7b2d8f5c3cc31c493112123ff67ae130ebcfe:dashboard.php
                         </section>
                         <section class="laporan">
                             <a href="laporan.html">Laporan</a>
@@ -50,13 +55,13 @@
             <div class="berita">
                 <img class="underline" src="Asset/berita.png">
                 <section class="isi1">
-                    <a href="#"><img src="Asset/berita1.png"></a>
+                    <a href="https://katadesa.id/index.php/dari-desa-ke-desa-1/72-tiga-tips-pengelolaan-keuangan-bumdes" target="_blank"><img src="Asset/berita1.png"></a>
                 </section>
                 <section class="isi2">
-                    <a href="#"><img src="Asset/berita2.png"></a>
+                    <a href="https://infobumdes.id/proses-dan-tahapan-pendirian-bumdes/" target="_blank"><img src="Asset/berita2.png"></a>
                 </section>
                 <section class="isi3">
-                    <a href="#"><img src="Asset/berita3.png"></a>
+                    <a href="https://www.pusdiklatpemda.com/pelatihan-pengurus-badan-usaha-milik-desa-bumdes-se-kabupaten/" target="_blank"><img src="Asset/berita3.png"></a>
                 </section>
                 <section class="klik">
                     <a href="#"><img src="Asset/klik berita lainnya.png"></a>

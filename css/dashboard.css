@@ -77,6 +77,14 @@ header {
     top: 11px;
 }
 
+.cart {
+    position: absolute;
+width: 49px;
+height: 49px;
+left: 1045px;
+top: 4px;
+}
+
 .bar-home {
     position: absolute;
     width: 1349px;
